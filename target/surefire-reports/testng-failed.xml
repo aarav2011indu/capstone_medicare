@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="medicare_webpages.Login">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- medicare_webpages.Login -->
+      <class name="medicare_webpages.Admin">
+        <methods>
+          <include name="AdminTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- medicare_webpages.Admin -->
+      <class name="rest_api_request.GetRequest">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- rest_api_request.GetRequest -->
+      <class name="medicare_webpages.Check_out">
+        <methods>
+          <include name="viewProductTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- medicare_webpages.Check_out -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

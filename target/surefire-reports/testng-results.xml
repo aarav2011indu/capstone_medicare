@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-28T11:55:15 IST" name="Suite" finished-at="2023-03-28T11:55:58 IST" duration-ms="43578">
+    <groups>
+    </groups>
+    <test started-at="2023-03-28T11:55:15 IST" name="Test" finished-at="2023-03-28T11:55:58 IST" duration-ms="43578">
+      <class name="medicare_webpages.Admin">
+        <test-method is-config="true" signature="setup()[pri:0, instance:medicare_webpages.Admin@78123e82]" started-at="2023-03-28T11:55:19 IST" name="setup" finished-at="2023-03-28T11:55:22 IST" duration-ms="2551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdminTest()[pri:0, instance:medicare_webpages.Admin@78123e82]" started-at="2023-03-28T11:55:22 IST" name="AdminTest" finished-at="2023-03-28T11:55:29 IST" duration-ms="6547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminTest -->
+      </class> <!-- medicare_webpages.Admin -->
+      <class name="rest_api_request.GetRequest">
+        <test-method signature="test1()[pri:0, instance:rest_api_request.GetRequest@33990a0c]" started-at="2023-03-28T11:55:15 IST" name="test1" finished-at="2023-03-28T11:55:19 IST" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- rest_api_request.GetRequest -->
+      <class name="medicare_webpages.Login">
+        <test-method signature="logintest()[pri:0, instance:medicare_webpages.Login@48f278eb]" started-at="2023-03-28T11:55:42 IST" name="logintest" finished-at="2023-03-28T11:55:58 IST" duration-ms="16491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- medicare_webpages.Login -->
+      <class name="medicare_webpages.Check_out">
+        <test-method is-config="true" signature="setup()[pri:0, instance:medicare_webpages.Check_out@1da2cb77]" started-at="2023-03-28T11:55:29 IST" name="setup" finished-at="2023-03-28T11:55:30 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="viewProductTest()[pri:0, instance:medicare_webpages.Check_out@1da2cb77]" started-at="2023-03-28T11:55:30 IST" name="viewProductTest" finished-at="2023-03-28T11:55:42 IST" duration-ms="12069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProductTest -->
+      </class> <!-- medicare_webpages.Check_out -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
