@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="medicare_webpages.Login">
+      <class name="extentReport.Extentreport">
         <methods>
-          <include name="logintest"/>
+          <include name="createTest"/>
+          <include name="setExtent"/>
         </methods>
-      </class> <!-- medicare_webpages.Login -->
+      </class> <!-- extentReport.Extentreport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
